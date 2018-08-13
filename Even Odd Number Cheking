@@ -1,0 +1,9 @@
+
+var a =prompt('Enter The Number');
+for ( var i = 0 ;i<=a ; i++ ) {
+    if (a % 2===0) {
+        console.log("This Number is Even" +);
+    } else if (a %3 === 0) {
+        console.log("This is Odd Number");
+    }
+}
