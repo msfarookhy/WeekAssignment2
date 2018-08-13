@@ -1,0 +1,9 @@
+for (var i =0 ; i <100; i++) {
+    if(i%2===0){
+        console.log( 'the number is even' + i );
+
+    }
+    else {
+        console.log( 'the number is in odd' + i);
+    }
+}
