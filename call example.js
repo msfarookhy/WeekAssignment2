@@ -26,4 +26,4 @@ var array = [];
 
 array.push.apply(array,[1,2,3]);
 
-these all are expicity function//in this function you call a function with the obejcts name
+//these all are explicity function in this function you call a function with the obejcts name.
