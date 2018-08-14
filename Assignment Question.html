@@ -6,16 +6,123 @@
 
 </head>
 <body>
-<script>
-<h2 Q1 What is closure ? How it is created?</h2>
-<p> Constructor is used to create an Object, with some values or can be a default/empty constructor in a OOP Language</p>
+
+<h1> Q1 What is closure ? How it is created?  <h1>
+<p> A closure is the combination of a function and the lexical environment within which that function was declared. <p>
 <p> Example </p>
-    function Country(Name, LastName ,Email) {
+    <script>
+//
+// function foo() {
+//     var name = 'Saif';
+//     function displayName() {
+//         alert(name);
+//     }
+//     return displayName;
+// }
+//
+// var a = foo();
+// a();
+//
+//
+
+// 2.How do you use closure to create an encapsulated module? What’s benefits of thatapproach?
+//
+//     An IIFE is  used to create scope to encapsulate modules. Within the module there is a private scope .This is called module pattern, is a powerful example of using closures to manage scope".
+//
+// (function () {
+//     alert('this is an IIFE!');
+// }());
+
+
+// 3.How do you “borrow “ a function and implicitly set this ?
+// following is the example fir the borrowing function to in implicty set this
+// var test = {
+//     a: 42,
+//     func: function() {
+//         return this.a;
+//     },
+// };
+//
+// console.log(test.func());
+//  when you call a function  with the object it knwn as the implicity set to this .
+
+//4.How o you explicitly set this for the function call ?
+
+//there are 3 type for calling a function to the explicity set to this .
+//following are the example of explicity
+// function foo() {
+//     console.log(this.a)
+//
+// }
+// var obj ={
+//     a:2,
+// };
+// foo.call(obj);
+//
+
+
+// Array.prototype.push = function(element) {
+//
+// }
+// var array = [];
+//
+// array.push.apply(array,[1,2,3]);
+//
+//The bind() method creates a new function that, when calle it has this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
+//
+// var sam = {
+//     a: 42,
+//     getA: function() {
+//         return this.x;
+//     }
+// }
+//
+// var unboundGetA = sam.getA;
+// console.log(unboundGetA());
+//
+// var boundGetA = unboundGetA.bind(module);
+// console.log(boundGetA());
+
+// 5 How can you lock a specific this to function ? why do that ? why not ?
+ // You Can lock a specific this to function with using and IIFE functionn whi is explme is given belwo
+//
+// (function () {
+//     var foo = "bar";
+//
+//
+//     console.log(foo);
+// })();
+//
+// console.log(foo);
+
+
+// we use iife coz The primary reason to use an IIFE is to obtain data privacy. Because JavaScript's var scopes variables to their containing function, any variables declared within the IIFE cannot be accessed by the outside world.
+
+// 6 How do you create a  new this for the function call ?
+
+    function family(Name, LastName ,Email) {
     this.name = Name;
     this.LastName = LastName;
-    this.Email = Emaill;
+    this.Email = Email;
     }
-    var c = new Country('Saif', 'Farookhy', 'Msfarooky');
+    var c = new family('Saif', 'Farookhy', 'Msfarooky');
+
+
+
+   //                   Prototypes
+// 1.What is a constructor call
+    //when we call an obejct with using "new"  it is knwn as a constructor call
+
+    // wehen ever the new constructor is being called the new bject is cretaed and it is going to linked to another object in a lexical way . if there is a context is that scope it ll return the value .
+
+    // Q2 what are the prototypes and where is it come fromm?
+     // java script object has a internal which is refrence to another object and that object refers to prototype and it comes from the one function too the obejct which is linked to main funtion that link knwn as the prototype.
+
+    //Q 3 How does prototype affect the behaviour of an object ?
+    // When we create an object prototype it intialize the prototype property you can access the Prototype with Object.getPrototypeOf function .
+
+    //Q 4 How do we find out where and object’s Prototype points to (3 ways)??
+
 
 
 </script>

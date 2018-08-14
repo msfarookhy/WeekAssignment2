@@ -3,3 +3,4 @@ function isPrime(num) {
         if(num % i === 0) return false;
     return num !== 1;
 }
+isPrime(3); // it'll print the value as true .
