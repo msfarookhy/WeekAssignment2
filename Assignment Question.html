@@ -10,29 +10,40 @@
 <h1> Q1 What is closure ? How it is created?  <h1>
 <p> A closure is the combination of a function and the lexical environment within which that function was declared. <p>
 <p> Example </p>
+
     <script>
-//
-// function foo() {
-//     var name = 'Saif';
-//     function displayName() {
-//         alert(name);
-//     }
-//     return displayName;
-// }
-//
-// var a = foo();
-// a();
-//
-//
+
+ function foo() {
+     var name = 'Saif'
+     function displayName() {
+         alert(name);
+     }
+   return displayName;
+ }
+
+var a = foo()
+    a()
 
 // 2.How do you use closure to create an encapsulated module? What’s benefits of thatapproach?
-//
-//     An IIFE is  used to create scope to encapsulate modules. Within the module there is a private scope .This is called module pattern, is a powerful example of using closures to manage scope".
+//     An IIFE is  used to create scope to encapsulate modules. Within the module there is a private scope .This is called //module pattern, is a powerful example of using closures to manage scope"
 //
 // (function () {
 //     alert('this is an IIFE!');
 // }());
+//var a = (function() {
 
+//    var _myName = 'this is saif';
+
+//    function myName() {
+//        console.log(myName);
+//    }
+
+//    return {
+//        a: function() {
+//            myName();
+//        }
+//    };
+// }());
 
 // 3.How do you “borrow “ a function and implicitly set this ?
 // following is the example fir the borrowing function to in implicty set this
@@ -105,13 +116,20 @@
     this.LastName = LastName;
     this.Email = Email;
     }
-    var c = new family('Saif', 'Farookhy', 'Msfarooky');
+    var c = new person('Saif', 'Farookhy', 'Msfarooky');
 
 
 
    //                   Prototypes
 // 1.What is a constructor call
     //when we call an obejct with using "new"  it is knwn as a constructor call
+
+    function brand (name .model)
+ {
+     this.name = name,
+         this.model = model,
+ }
+ brand('sony','T2ultra');
 
     // wehen ever the new constructor is being called the new bject is cretaed and it is going to linked to another object in a lexical way . if there is a context is that scope it ll return the value .
 

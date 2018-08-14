@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb3eb42-7544-4597-8b0c-b8962b409934" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizzBuzz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/genreating prime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sumOFArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swappingArray.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment Question.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment Question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/primeNumber.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Assignment Question.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Assignment Question.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment Question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="582">
+              <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -77,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swappingArray.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swappingArray.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swappingArray.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -217,12 +211,12 @@
       <workItem from="1533984131656" duration="5377000" />
       <workItem from="1534019333080" duration="987000" />
       <workItem from="1534137802643" duration="5892000" />
-      <workItem from="1534170592094" duration="8456000" />
+      <workItem from="1534170592094" duration="13306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20712000" />
+    <option name="totallyTimeSpent" value="25562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -355,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Even Odd Number Cheking">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/primeNumber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -404,10 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment Question.html">
+    <entry file="file://$PROJECT_DIR$/swappingArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -418,10 +405,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swappingArray.js">
+    <entry file="file://$PROJECT_DIR$/Even Odd Number Cheking">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment Question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
         </state>
       </provider>
     </entry>
